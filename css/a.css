@@ -8,8 +8,8 @@
     z-index: 1000;
 }
 .brand {
-    width: 30%;
-    height: 30%;
+    width: 40%;
+    height: 40%;
     margin: auto;
     display: block;
 }
@@ -46,4 +46,17 @@
 }
 .p-relative {
     position: relative;
+}
+.link-group{
+    position: static;
+    margin: 0 auto 2em;
+    text-align: center;
+    overflow-y: auto;
+    white-space: nowrap;
+    display: flex;
+    list-style: none; 
+    border: 1px solid #00831d;
+    padding: 0;
+    border-radius: 50rem!important;
+    line-height: 1.8;
 }
