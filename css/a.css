@@ -13,3 +13,8 @@
     margin: auto;
     display: block;
 }
+
+.navbar-list {
+    display: flex;
+    list-style: none; 
+}
