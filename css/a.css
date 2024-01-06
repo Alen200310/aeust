@@ -36,3 +36,11 @@
 .align-items-center {
     align-items: center;
 }
+.title-color-g-text-center{
+    margin-bottom: 0;
+    clear: both;
+    font-size: 1.6em;
+    color: #00831d;
+    text-align: center!important;
+
+}
