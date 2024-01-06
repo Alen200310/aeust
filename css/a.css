@@ -18,7 +18,18 @@
     display: flex;
     list-style: none; 
 }
+.list-item {
+    padding: 2rem;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 150%;
 
+    &:hover,
+    &.active {
+        color: orange;
+    }
+}
 .justify-content-between {
     justify-content: space-between;
 }
