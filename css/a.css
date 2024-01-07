@@ -60,3 +60,9 @@
     border-radius: 50rem!important;
     line-height: 1.8;
 }
+
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
