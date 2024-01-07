@@ -86,3 +86,6 @@
 .drop-down-menu a:hover{
     background-color: beige;
 }
+.dropdown:hover .drop-down-menu{
+    display: block;
+}
