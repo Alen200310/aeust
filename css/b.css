@@ -170,3 +170,7 @@ text-align: center;
 {
     background-color: #b3b60d8f;
 }
+.form-control:hover
+{
+    background-color: #f01e1e;
+}
