@@ -70,12 +70,16 @@
     <div class="container">
         <div class="container p-relative">
             <div class="row">
-                <div class="col-md-4">
-                <h2 class="title color-g text-center">查詢/取消掛號</h2>
+                <div class="col-md-12">
+                <h2 class="titlecolor-gtext-center">查詢/取消掛號</h2>
                 </div>
-            <div class="col-md-8">
+        </div>
+        <div class="row">
+            <div class="col-md-1">
                 <i class="icon"><img src="./img/icon_bell.svg" alt="鈴鐺">
                 </i>
+            </div>
+            <div class="col-md-11">
                 <ol>
                     <li>
                         當日上午診超過 8:30，下午診超過 13:30，夜診超過17:30不可取消掛號。
@@ -87,6 +91,129 @@
             </div>
         </div>
     </div>
+    <div class="search-box">
+        <div class="form-inline">
+            <label class="sr-only" for="MainContent_radioId"></label>
+            <input value="0" name="ctl00$MainContent$radioname" type="radio" id="MainContent_radioId" style="width: 25px; height: 25px;" checked="checked">
+            身分證字號
+            <label class="sr-only" for="MainContent_radioId2"></label>
+  <input value="1" name="ctl00$MainContent$radioname" type="radio" id="MainContent_radioId2" style="width: 25px; height: 25px;">
+            病歷號
+ 
+        </div>
+
+        <div class="form-group">
+            <label class="sr-only" for="MainContent_TextBox_ID"></label>
+            <input name="ctl00$MainContent$TextBox_ID" type="text" id="MainContent_TextBox_ID" class="form-control">
+        </div>
+
+        <div class="form-inline">
+            <div class="form-group">
+                
+                出生日期：
+                <label class="sr-only" for="MainContent_DropDownList_BirthdayYear">
+                    年</label>
+                <select name="ctl00$MainContent$DropDownList_BirthdayYear" id="MainContent_DropDownList_BirthdayYear" class="form-control date">
+<option value="113">民國 113(2024)</option>
+<option value="112">民國 112(2023)</option>
+<option value="111">民國 111(2022)</option>
+<option value="110">民國 110(2021)</option>
+<option value="109">民國 109(2020)</option>
+<option value="108">民國 108(2019)</option>
+<option value="107">民國 107(2018)</option>
+<option value="106">民國 106(2017)</option>
+<option value="105">民國 105(2016)</option>
+<option value="104">民國 104(2015)</option>
+<option value="103">民國 103(2014)</option>
+<option value="102">民國 102(2013)</option>
+<option value="101">民國 101(2012)</option>
+<option value="100">民國 100(2011)</option>
+<option value="099">民國 99(2010)</option>
+<option value="098">民國 98(2009)</option>
+<option value="097">民國 97(2008)</option>
+<option value="096">民國 96(2007)</option>
+<option value="095">民國 95(2006)</option>
+<option value="094">民國 94(2005)</option>
+<option value="093">民國 93(2004)</option>
+<option value="092">民國 92(2003)</option>
+<option value="091">民國 91(2002)</option>
+<option value="090">民國 90(2001)</option>
+<option value="089">民國 89(2000)</option>
+<option value="088">民國 88(1999)</option>
+<option value="087">民國 87(1998)</option>
+<option value="086">民國 86(1997)</option>
+<option value="085">民國 85(1996)</option>
+<option value="084">民國 84(1995)</option>
+<option value="083">民國 83(1994)</option>
+<option value="082">民國 82(1993)</option>
+<option value="081">民國 81(1992)</option>
+<option value="080">民國 80(1991)</option>
+<option value="079">民國 79(1990)</option>
+<option value="078">民國 78(1989)</option>
+<option value="077">民國 77(1988)</option>
+</select>
+                年
+                <label class="sr-only" for="MainContent_DropDownList_BirthdayMonth">
+                    月</label>
+    <select name="ctl00$MainContent$DropDownList_BirthdayMonth" id="MainContent_DropDownList_BirthdayMonth" class="form-control date">
+<option value="01">01</option>
+<option value="02">02</option>
+<option value="03">03</option>
+<option value="04">04</option>
+<option value="05">05</option>
+<option value="06">06</option>
+<option value="07">07</option>
+<option value="08">08</option>
+<option value="09">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+
+</select>
+                月
+                <label class="sr-only" for="MainContent_DropDownList_BirthdayDay">
+                    日</label>
+    <select name="ctl00$MainContent$DropDownList_BirthdayDay" id="MainContent_DropDownList_BirthdayDay" class="form-control date">
+<option value="01">01</option>
+<option value="02">02</option>
+<option value="03">03</option>
+<option value="04">04</option>
+<option value="05">05</option>
+<option value="06">06</option>
+<option value="07">07</option>
+<option value="08">08</option>
+<option value="09">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+
+</select>
+                日
+            </div>
+
+        </div>
+        <div class="form-inline">
+            <div class="form-group">
+                <label class="sr-only" for="MainContent_TextBox_keyNumber">
 </header>
 </body>
 </html>

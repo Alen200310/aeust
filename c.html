@@ -4,47 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/js/adminlte.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/css/adminlte.min.css">
+    <link rel="stylesheet" href="./css/b.css">
+    <link rel="stylesheet" href="./css/example.css">
 </head>
 <body>
-    <div>
-        <img src="img/Yadong Hospital.png" alt="">
-    </div>
-    <div class="row">
-        <div class="col-sm-4">&nbsp;</div>
-        <div class="col-sm-4">
-            <div class="card card-info">
-                <div class="card-body">
-                    <form method="post" action="#" class="form-group row">
-                        <div class="col-sm-2">
-                            <label for="username" class="col-sm-2 col-form-label">帳號</label>
-                        </div>
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control" id="username" name="username" placeholder="帳號"
-                                value="">
-                        </div>
-                        <div class="col-sm-2">
-                            <label for="password" class="col-sm-2 col-form-label">密碼</label>
-                        </div>
-                        <div class="col-sm-10">
-                            <input type="password" class="form-control" id="password" name="password" placeholder="密碼">
-                        </div>
-                        <div class="col-sm-12">
-                            <div class="custom-control custom-switch custom-switch-off-danger custom-switch-on-success">
-                                <input type="checkbox" class="custom-control-input" id="rember">
-                                <label class="custom-control-label" for="rember">記住我</label>
-                            </div>
-                        </div>
-                        <div class="col-sm-12">
-                            <input type="submit" value="送出" class="btn btn-info"> <input type="reset" value="清除"
-                                class="btn btn-default">
-                        </div>
-                    </form>
-                </div>
+    <nav class="navbar">
+        <div class="container">
+            <div class="justify-content-between  align-items-center" style="display: flex;">
+                <div><a href=""><img src="./img/Yadong Hospital.png" alt="亞東醫院"  class="brand"></a></div>
+                <ul class="navbar-list">
+                    <div class="dropdown">
+                    <li><a href="#" class="list-item">認識亞東</a>
+                        <ul class="drop-down-menu">
+                            <li><a href="#">醫院簡介</a></li>
+                            <li><a href="#">核心專長</a></li>
+                            <li><a href="#">宗旨與願景</a></li>
+                        </ul>
+                    </li>
+                    </div>
+                    <div class="dropdown">
+                    <li><a href="#" class="list-item">網路掛號</a>
+                        <ul class="drop-down-menu">
+                            <li><a href="#">我要掛號</a></li>
+                            <li><a href="#">掛號查詢</a></li>
+                            <li><a href="#">進度查詢</a></li>
+                        </ul>
+                    </li>
+                    </div>
+                    <div class="dropdown">
+                    <li><a href="#" class="list-item">就醫指南</a>
+                        <ul class="drop-down-menu">
+                            <li><a href="#">門診就醫</a></li>
+                            <li><a href="#">轉院</a></li>
+                            <li><a href="#">出院</a></li>
+                        </ul>
+                    </li>
+                    </div>
+                    <div class="dropdown">
+                    <li><a href="#" class="list-item">醫療團隊</a>
+                        <ul class="drop-down-menu">
+                            <li><a href="#">科部介紹</a></li>
+                            <li><a href="#">醫師介紹</a></li>
+                            <li><a href="#">我要看哪一科</a></li>
+                        </ul>
+                    </li>
+                    </div>
+                </ul>
             </div>
         </div>
-        <div class="col-sm-4">&nbsp;</div>>
+    </nav>
+ <header>
+    <div class="container p-relative">
+        <img src="img/header-top-decoration.png" alt="">
+        <div class="row">
+            <div class="col-12">
+                <ul class="link-group">
+                    <li><a href="#" class="list-item">我要掛號</a></li>
+                    <li><a href="#" class="list-item">進度查詢</a></li>
+                    <li><a href="#" class="list-item">掛號查詢</a></li>
+                    <li><a href="#" class="list-item">掛號說明</a></li>
+                    <li><a href="#" class="list-item" title="門診時刻表.pdf(另開新視窗)" target="_blank">門診時刻表</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
+    <div class="container">
+        <div class="content-box bg-color">
+            <div class="content-mainbox have-icon">
+                                 
+        1.若為其他院所建議轉診至本院就醫，請持原就診院所開立之<a href="" role="button" data-toggle="modal" data-target="#formModal" data-alt="轉診單" class="btn-link color-g">「轉診單」<i class="fas fa-plus-circle"></i></a>，至本院一樓服務台報到（夜診請至批價櫃檯）。看診後，於批價櫃檯出示<a href="" role="button" data-toggle="modal" data-target="#formModal" data-alt="轉診單" class="btn-link color-g">「轉診單」<i class="fas fa-plus-circle"></i></a>，可優待當次診察費用250元。相關諮詢請洽本院轉診櫃檯或撥打專線電話：(02)8966-7000轉分機2144或1116。
+        <br>
+        2.如為接種新冠肺炎疫苗，請確認<a href="https://www.femh.org.tw/research/news_detail?NewsNo=14862" class="btn-link color-g" target="_blank" title="日程表(另開新視窗)">「日程表」</a>；接種其他疫苗，請務必參閱<a href="https://www.e-pharm.info/news/vaccine-status" class="btn-link color-g" target="_blank" title="疫苗供應動態(另開新視窗)">「疫苗供應動態」 </a>，以免因短缺而造成不便。
+         
+            </div>
+        </div>
+        <div>
+            <p>依症狀查詢</p>
+            <hr class="hrr">
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 www">
+                <a href="#" data-toggle="collapse" class="btn-collapse">頭痛</a>
+            </div>
+            <div class="col-md-3 www">
+                <a href="#" data-toggle="collapse" class="btn-collapse">頭暈</a>
+            </div>
+            <div class="col-md-3 www">
+                <a href="#" data-toggle="collapse" class="btn-collapse">嘔吐</a>
+            </div>
+        </div>
+    </div>
+</head>
 </body>
 </html>
