@@ -89,3 +89,32 @@
 .dropdown:hover .drop-down-menu{
     display: block;
 }
+.icon{
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    margin-top: -28px;
+    width: 51px;
+    height: 56px;
+}
+i {
+    font-style: italic;
+}
+.post-box {
+    padding: 30px;
+    border: 1px solid #dadcdd;
+    padding-left: 110px;
+    position: relative;
+    border-radius: 15px;
+    margin-bottom: 40px;
+  }
+  .post-box li {
+    margin: 0 !important;
+    font-size: 1.1rem;
+  }
+  .post-box .icon {
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    margin-top: -28px;
+  }

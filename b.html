@@ -4,47 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/js/adminlte.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/css/adminlte.min.css">
+    <link rel="stylesheet" href="./css/a.css">
+    <link rel="stylesheet" href="./css/example.css">
 </head>
 <body>
-    <div>
-        <img src="img/Yadong Hospital.png" alt="">
-    </div>
-    <div class="row">
-        <div class="col-sm-4">&nbsp;</div>
-        <div class="col-sm-4">
-            <div class="card card-info">
-                <div class="card-body">
-                    <form method="post" action="#" class="form-group row">
-                        <div class="col-sm-2">
-                            <label for="username" class="col-sm-2 col-form-label">帳號</label>
-                        </div>
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control" id="username" name="username" placeholder="帳號"
-                                value="">
-                        </div>
-                        <div class="col-sm-2">
-                            <label for="password" class="col-sm-2 col-form-label">密碼</label>
-                        </div>
-                        <div class="col-sm-10">
-                            <input type="password" class="form-control" id="password" name="password" placeholder="密碼">
-                        </div>
-                        <div class="col-sm-12">
-                            <div class="custom-control custom-switch custom-switch-off-danger custom-switch-on-success">
-                                <input type="checkbox" class="custom-control-input" id="rember">
-                                <label class="custom-control-label" for="rember">記住我</label>
-                            </div>
-                        </div>
-                        <div class="col-sm-12">
-                            <input type="submit" value="送出" class="btn btn-info"> <input type="reset" value="清除"
-                                class="btn btn-default">
-                        </div>
-                    </form>
-                </div>
+    <nav class="navbar">
+        <div class="container">
+            <div class="justify-content-between  align-items-center" style="display: flex;">
+                <div><a href=""><img src="./img/Yadong Hospital.png" alt="亞東醫院"  class="brand"></a></div>
+                <ul class="navbar-list">
+                    <div class="dropdown">
+                    <li><a href="#" class="list-item">認識亞東</a>
+                        <ul class="drop-down-menu">
+                            <li><a href="#">醫院簡介</a></li>
+                            <li><a href="#">核心專長</a></li>
+                            <li><a href="#">宗旨與願景</a></li>
+                        </ul>
+                    </li>
+                    </div>
+                    <div class="dropdown">
+                    <li><a href="#" class="list-item">網路掛號</a>
+                        <ul class="drop-down-menu">
+                            <li><a href="#">我要掛號</a></li>
+                            <li><a href="#">掛號查詢</a></li>
+                            <li><a href="#">進度查詢</a></li>
+                        </ul>
+                    </li>
+                    </div>
+                    <div class="dropdown">
+                    <li><a href="#" class="list-item">就醫指南</a>
+                        <ul class="drop-down-menu">
+                            <li><a href="#">門診就醫</a></li>
+                            <li><a href="#">轉院</a></li>
+                            <li><a href="#">出院</a></li>
+                        </ul>
+                    </li>
+                    </div>
+                    <div class="dropdown">
+                    <li><a href="#" class="list-item">醫療團隊</a>
+                        <ul class="drop-down-menu">
+                            <li><a href="#">科部介紹</a></li>
+                            <li><a href="#">醫師介紹</a></li>
+                            <li><a href="#">我要看哪一科</a></li>
+                        </ul>
+                    </li>
+                    </div>
+                </ul>
             </div>
         </div>
-        <div class="col-sm-4">&nbsp;</div>>
+    </nav>
+    <div class="content">
+        <div class="row">
+            <div class="post_box">
+                <i class="icon"><img src="./img/鈴鐺.jpg" alt="鈴鐺">
+                </i>
+                <ol>
+                    <li>
+                        當日上午診超過 8:30，下午診超過 13:30，夜診超過17:30不可取消掛號。
+                    </li>
+                    <li>
+                        提醒您：若為初診病患，請提前45分鐘至一樓掛號櫃檯辦理初診手續，並請攜帶身分證件或戶口名簿以供櫃檯核對
+                    </li>
+                </ol>
+        </div>
     </div>
+</div>
 </body>
 </html>
